@@ -1,0 +1,212 @@
+.heading h1{
+    font-size:100px ;
+}
+.line{
+    height: 3px;
+    width: 70px;
+    background-color: black;
+}
+.underline{
+width: 100%;
+height: 0.5px;
+background-color: rgba(0, 0, 0, 0.2);
+}
+.Design-desc{
+    font-weight: bold;
+    font-size: 20px;
+}
+.v-line{
+    background-color: rgba(155, 155, 155, 1);
+    width: 1px;
+    height: 120px;
+    margin-top: 5px;
+
+}
+.profile{
+    border-radius: 50%;
+}
+.card-item{
+    width: 160%;
+    height: 83%;
+    position: absolute;
+    left: 35%;
+    top: 28%;
+}
+
+.frame{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  transform: translate(-20%,-20%);
+  border: 1px solid;
+  z-index: -1;
+}
+.fa-arrow-down{
+  transform: translate(-50%);
+}
+.icons-card{
+    width: 13%;
+}
+.card-width{
+    width: 50%;
+    height: 87%;
+}
+.subscribe-title{
+    margin-top: 9%;
+}
+.fa-brands{
+background-color: rgb(65, 65, 65);
+padding: 4px;
+  font-size: 25px;
+}
+.footer-input{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-input input{
+padding: 12px 30px;
+width: 50%;
+font-size: 20px;
+position: relative;
+}
+.footer-input button{
+  width: 12%;
+  position: absolute;
+  height: 80%;
+  left: 62%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 4px;
+}
+.footer-row{
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 576px) {
+    .card-item {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+.frmae{
+  border: none;
+}
+    .card-width {
+      width: 40%; /* Make each card take up full width */
+      font-size: 10px;
+      height: 40%;
+      padding: 4px;
+    }
+  
+    .profile {
+      width: 20px; /* Adjust profile picture size for smaller screens */
+      height: 20px;
+    }
+  
+  
+    .icons-card {
+      width: 10px; /* Adjust icon size */
+      height: 10px;
+    }
+  
+    h2.fs-1 {
+      font-size: 1.5rem; /* Reduce heading size on small screens */
+    }
+    .fs-lg-5{
+        font-size:15px ;
+    }
+    .fa-brands{
+      background-color: rgb(65, 65, 65);
+      padding: 4px;
+        font-size: 25px;
+      }
+      .footer-input{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer-input input{
+      padding: 12px 30px;
+      width: 70%;
+      font-size: 12px;
+      position: relative;
+      }
+      .footer-input button{
+        width: 20%;
+        position: absolute;
+        height: 80%;
+        left: 62%;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        padding: 4px;
+      }
+      .footer-row{
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+      }
+
+  }
+  @media (min-width:576px) and (max-width: 768px) {
+    .card-item {
+      flex-direction: column;
+    }
+    .icons-card {
+        width: 15px; /* Adjust icon size */
+        height: 15px;
+      }
+    .card-width {
+      width: 38%;
+      height: 40%;
+      font-size: 12px;
+      padding: 4px;
+    }
+  
+    h2.fs-1 {
+      font-size: 1rem; /* Slightly smaller heading for medium screens */
+    }
+  
+    .profile {
+      width: 35px; /* Slightly bigger profile image on tablets */
+      height: 35px;
+    }
+  }      
+  @media (min-width:768px) and (max-width: 1000px)    {
+    .card-item {
+        flex-direction: column;
+      }
+      .icons-card {
+          width: 15px; /* Adjust icon size */
+          height: 15px;
+        }
+      .card-width {
+        width: 40%;
+        height: 40%;
+        font-size: 12px;
+        padding: 8px;
+      }
+    
+      h2.fs-1 {
+        font-size: 1rem; /* Slightly smaller heading for medium screens */
+      }
+    
+      .profile {
+        width: 35px; /* Slightly bigger profile image on tablets */
+        height: 35px;
+      }
+  }
